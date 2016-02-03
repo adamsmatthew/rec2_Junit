@@ -10,7 +10,7 @@ public class Interpolator {
 	 * @param x the x-value of the interpolated point
 	 * @return the y-value of the interpolated point
 	 */
-	public double linearInterpolate(double[] point1, double[] point2, double x) {
+	public static double linearInterpolate(double[] point1, double[] point2, double x) {
 		double x1 = point1[0];
 		double y1 = point1[1];
 		double x2 = point2[0];
@@ -28,7 +28,7 @@ public class Interpolator {
 	 * @param point2 another point [x,y]
 	 * @return the midpoint [x,y]
 	 */
-	public double[] getMidpoint(double[] point1, double[] point2) {
+	public static double[] getMidpoint(double[] point1, double[] point2) {
 		double x1 = point1[0];
 		double y1 = point1[1];
 		double x2 = point2[0];
